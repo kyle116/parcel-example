@@ -1,6 +1,6 @@
 let newsKey = process.env.NEWS_API_KEY;
 let newsSources = [
-  `https://newsapi.org/v2/top-headlines?country=us&apiKey=${newsKey}`,
+  `https://cors-proxy.htmldriven.com/?url=https://newsapi.org/v2/top-headlines?country=us&apiKey=${newsKey}`,
   'https://www.reddit.com/top.json'
 ];
 
