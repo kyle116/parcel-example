@@ -2,12 +2,7 @@
   "name": "example",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
-	"targets": {
-		"main": {
-			"outputFormat": "esmodule"
-		}
-	},
+  "main": "index.js",
   "browserslist": [
     "last 1 Chrome versions"
   ],
