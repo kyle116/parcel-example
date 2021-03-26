@@ -1,4 +1,4 @@
-import { newsKey } from './keys.js';
+let newsKey = process.env.NEWS_API_KEY;
 let newsSources = [
   `https://newsapi.org/v2/top-headlines?country=us&apiKey=${newsKey}`,
   'https://www.reddit.com/top.json'
